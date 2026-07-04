@@ -5,4 +5,5 @@ app = FastAPI()
 @app.get("/")
 
 def home():
-    return{"message" : "Hello without virual"}
+    return{"message" : "Hello from FASTAPI VENV"}
+
